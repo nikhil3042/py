@@ -1,0 +1,13 @@
+2026-02-25 15:46:37,691 - TestLogin - [INFO] - -----Test Started-----
+2026-02-25 15:46:37,693 - TestLogin - [INFO] - Starting valid login test
+2026-02-25 15:46:37,694 - LoginPage - [INFO] - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-02-25 15:46:38,482 - TestLogin - [INFO] - Opened login page
+2026-02-25 15:46:38,485 - LoginPage - [INFO] - Typing into element: student
+2026-02-25 15:46:38,486 - LoginPage - [INFO] - Finding element: ('id', 'username')
+2026-02-25 15:46:39,545 - LoginPage - [INFO] - Typing into element: Password123
+2026-02-25 15:46:39,546 - LoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-25 15:46:39,613 - LoginPage - [INFO] - Clicking element: ('id', 'submit')
+2026-02-25 15:46:42,410 - TestLogin - [INFO] - Entered valid credentials
+2026-02-25 15:46:42,410 - LoginPage - [INFO] - Finding element: ('tag name', 'h1')
+2026-02-25 15:46:42,431 - TestLogin - [INFO] - Valid login test passed
+2026-02-25 15:46:42,432 - TestLogin - [INFO] - -----Test Ended-----

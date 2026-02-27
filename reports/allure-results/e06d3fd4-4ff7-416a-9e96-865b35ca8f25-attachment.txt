@@ -1,0 +1,6 @@
+2026-02-25 15:47:33,569 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-25 15:47:33,975 - SauceDemoLoginPage - [INFO] - Typing into element: locked_out_user
+2026-02-25 15:47:33,975 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-25 15:47:34,198 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-25 15:47:34,199 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-25 15:47:34,283 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')

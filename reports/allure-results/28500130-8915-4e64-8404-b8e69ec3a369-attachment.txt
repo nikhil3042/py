@@ -1,0 +1,6 @@
+[32mINFO    [0m SauceDemoLoginPage:base_page.py:14 Opening URL: https://www.saucedemo.com/
+[32mINFO    [0m SauceDemoLoginPage:base_page.py:26 Typing into element: standard_user
+[32mINFO    [0m SauceDemoLoginPage:base_page.py:18 Finding element: ('id', 'user-name')
+[32mINFO    [0m SauceDemoLoginPage:base_page.py:26 Typing into element: secret_sauce
+[32mINFO    [0m SauceDemoLoginPage:base_page.py:18 Finding element: ('id', 'password')
+[32mINFO    [0m SauceDemoLoginPage:base_page.py:22 Clicking element: ('id', 'login-button')

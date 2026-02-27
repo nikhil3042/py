@@ -1,0 +1,6 @@
+INFO     OrgLoginPage:base_page.py:14 Opening URL: https://opensource-demo.orangehrmlive.com/
+INFO     OrgLoginPage:base_page.py:26 Typing into element: Admin
+INFO     OrgLoginPage:base_page.py:18 Finding element: ('name', 'username')
+INFO     OrgLoginPage:base_page.py:26 Typing into element: admin123
+INFO     OrgLoginPage:base_page.py:18 Finding element: ('name', 'password')
+INFO     OrgLoginPage:base_page.py:22 Clicking element: ('xpath', "//button[@type='submit']")

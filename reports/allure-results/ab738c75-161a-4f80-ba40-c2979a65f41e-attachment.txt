@@ -1,0 +1,6 @@
+[32mINFO    [0m OrgLoginPage:base_page.py:14 Opening URL: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m OrgLoginPage:base_page.py:26 Typing into element: Admin
+[32mINFO    [0m OrgLoginPage:base_page.py:18 Finding element: ('name', 'username')
+[32mINFO    [0m OrgLoginPage:base_page.py:26 Typing into element: admin123
+[32mINFO    [0m OrgLoginPage:base_page.py:18 Finding element: ('name', 'password')
+[32mINFO    [0m OrgLoginPage:base_page.py:22 Clicking element: ('xpath', "//button[@type='submit']")

@@ -1,0 +1,336 @@
+2026-02-24 22:04:39,034 - TestLogin - [INFO] - -----Test Started-----
+2026-02-24 22:04:39,036 - TestLogin - [INFO] - Starting valid login test
+2026-02-24 22:04:39,038 - LoginPage - [INFO] - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-02-24 22:04:41,466 - TestLogin - [INFO] - Opened login page
+2026-02-24 22:04:41,467 - LoginPage - [INFO] - Typing into element: student
+2026-02-24 22:04:41,467 - LoginPage - [INFO] - Finding element: ('id', 'username')
+2026-02-24 22:04:41,545 - LoginPage - [INFO] - Typing into element: Password123
+2026-02-24 22:04:41,545 - LoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-24 22:04:41,636 - LoginPage - [INFO] - Clicking element: ('id', 'submit')
+2026-02-24 22:04:44,488 - TestLogin - [INFO] - Entered valid credentials
+2026-02-24 22:04:44,488 - LoginPage - [INFO] - Finding element: ('tag name', 'h1')
+2026-02-24 22:04:44,522 - TestLogin - [INFO] - Valid login test passed
+2026-02-24 22:04:44,523 - TestLogin - [INFO] - -----Test Ended-----
+2026-02-24 22:04:50,891 - TestLogin - [INFO] - -----Test Started-----
+2026-02-24 22:04:50,892 - TestLogin - [INFO] - Starting Invalid login test
+2026-02-24 22:04:50,892 - LoginPage - [INFO] - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-02-24 22:04:51,638 - TestLogin - [INFO] - Opened login page
+2026-02-24 22:04:51,638 - LoginPage - [INFO] - Typing into element: incorrectUser 
+2026-02-24 22:04:51,638 - LoginPage - [INFO] - Finding element: ('id', 'username')
+2026-02-24 22:04:52,699 - LoginPage - [INFO] - Typing into element: incorrectPassword 
+2026-02-24 22:04:52,700 - LoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-24 22:04:52,779 - LoginPage - [INFO] - Clicking element: ('id', 'submit')
+2026-02-24 22:04:54,850 - LoginPage - [INFO] - Finding element: ('id', 'error')
+2026-02-24 22:04:54,871 - TestLogin - [INFO] - Invalid login test passed
+2026-02-24 22:04:54,872 - TestLogin - [INFO] - -----Test Ended-----
+2026-02-24 22:04:58,538 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-24 22:04:58,603 - SauceDemoLoginPage - [INFO] - Typing into element: standard_user
+2026-02-24 22:04:58,603 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-24 22:04:59,290 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-24 22:04:59,290 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-24 22:04:59,581 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-24 22:05:07,692 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-24 22:05:07,769 - SauceDemoLoginPage - [INFO] - Typing into element: locked_out_user
+2026-02-24 22:05:07,771 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-24 22:05:08,265 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-24 22:05:08,265 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-24 22:05:08,368 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-24 22:05:16,243 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-24 22:05:17,891 - SauceDemoLoginPage - [INFO] - Typing into element: problem_user
+2026-02-24 22:05:17,891 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-24 22:05:17,997 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-24 22:05:17,997 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-24 22:05:18,088 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-24 22:05:25,975 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-24 22:05:26,420 - SauceDemoLoginPage - [INFO] - Typing into element: performance_glitch_user
+2026-02-24 22:05:26,420 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-24 22:05:26,573 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-24 22:05:26,573 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-24 22:05:26,672 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-24 22:05:39,534 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-24 22:05:39,929 - SauceDemoLoginPage - [INFO] - Typing into element: error_user
+2026-02-24 22:05:39,929 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-24 22:05:40,233 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-24 22:05:40,233 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-24 22:05:40,465 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-24 22:05:48,567 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-24 22:05:49,003 - SauceDemoLoginPage - [INFO] - Typing into element: visual_user
+2026-02-24 22:05:49,004 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-24 22:05:49,148 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-24 22:05:49,148 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-24 22:05:49,262 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-24 22:09:03,285 - TestLogin - [INFO] - -----Test Started-----
+2026-02-24 22:09:03,286 - TestLogin - [INFO] - Starting valid login test
+2026-02-24 22:09:03,288 - LoginPage - [INFO] - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-02-24 22:09:05,056 - TestLogin - [INFO] - Opened login page
+2026-02-24 22:09:05,056 - LoginPage - [INFO] - Typing into element: student
+2026-02-24 22:09:05,056 - LoginPage - [INFO] - Finding element: ('id', 'username')
+2026-02-24 22:09:05,148 - LoginPage - [INFO] - Typing into element: Password123
+2026-02-24 22:09:05,148 - LoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-24 22:09:05,225 - LoginPage - [INFO] - Clicking element: ('id', 'submit')
+2026-02-24 22:09:08,042 - TestLogin - [INFO] - Entered valid credentials
+2026-02-24 22:09:08,042 - LoginPage - [INFO] - Finding element: ('tag name', 'h1')
+2026-02-24 22:09:08,081 - TestLogin - [INFO] - Valid login test passed
+2026-02-24 22:09:08,082 - TestLogin - [INFO] - -----Test Ended-----
+2026-02-24 22:09:11,938 - TestLogin - [INFO] - -----Test Started-----
+2026-02-24 22:09:11,940 - TestLogin - [INFO] - Starting Invalid login test
+2026-02-24 22:09:11,940 - LoginPage - [INFO] - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-02-24 22:09:13,685 - TestLogin - [INFO] - Opened login page
+2026-02-24 22:09:13,685 - LoginPage - [INFO] - Typing into element: incorrectUser 
+2026-02-24 22:09:13,685 - LoginPage - [INFO] - Finding element: ('id', 'username')
+2026-02-24 22:09:13,774 - LoginPage - [INFO] - Typing into element: incorrectPassword 
+2026-02-24 22:09:13,774 - LoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-24 22:09:13,858 - LoginPage - [INFO] - Clicking element: ('id', 'submit')
+2026-02-24 22:09:15,936 - LoginPage - [INFO] - Finding element: ('id', 'error')
+2026-02-24 22:09:15,957 - TestLogin - [INFO] - Invalid login test passed
+2026-02-24 22:09:15,958 - TestLogin - [INFO] - -----Test Ended-----
+2026-02-24 22:09:19,670 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-24 22:09:20,039 - SauceDemoLoginPage - [INFO] - Typing into element: standard_user
+2026-02-24 22:09:20,040 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-24 22:09:20,192 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-24 22:09:20,192 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-24 22:09:20,312 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-24 22:09:28,220 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-24 22:09:28,717 - SauceDemoLoginPage - [INFO] - Typing into element: locked_out_user
+2026-02-24 22:09:28,717 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-24 22:09:29,066 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-24 22:09:29,066 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-24 22:09:29,266 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-24 22:09:37,333 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-24 22:09:38,164 - SauceDemoLoginPage - [INFO] - Typing into element: problem_user
+2026-02-24 22:09:38,164 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-24 22:09:38,340 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-24 22:09:38,340 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-24 22:09:38,450 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-24 22:09:46,386 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-24 22:09:46,455 - SauceDemoLoginPage - [INFO] - Typing into element: performance_glitch_user
+2026-02-24 22:09:46,455 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-24 22:09:47,045 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-24 22:09:47,045 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-24 22:09:47,282 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-24 22:10:00,493 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-24 22:10:00,617 - SauceDemoLoginPage - [INFO] - Typing into element: error_user
+2026-02-24 22:10:00,617 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-24 22:10:01,802 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-24 22:10:01,802 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-24 22:10:02,156 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-24 22:10:10,309 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-24 22:10:10,382 - SauceDemoLoginPage - [INFO] - Typing into element: visual_user
+2026-02-24 22:10:10,383 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-24 22:10:10,889 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-24 22:10:10,889 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-24 22:10:11,010 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-25 12:50:20,544 - LoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com//practice-test-login/
+2026-02-25 12:50:22,504 - LoginPage - [INFO] - Typing into element: Admin
+2026-02-25 12:50:22,505 - LoginPage - [INFO] - Finding element: ('id', 'username')
+2026-02-25 12:50:43,423 - LoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com//practice-test-login/
+2026-02-25 12:50:44,774 - LoginPage - [INFO] - Typing into element: Admin
+2026-02-25 12:50:44,776 - LoginPage - [INFO] - Finding element: ('id', 'username')
+2026-02-25 14:58:06,944 - LoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com//practice-test-login/
+2026-02-25 14:58:08,445 - LoginPage - [INFO] - Typing into element: Admin
+2026-02-25 14:58:08,446 - LoginPage - [INFO] - Finding element: ('id', 'username')
+2026-02-25 14:58:22,631 - LoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com//practice-test-login/
+2026-02-25 14:58:24,522 - LoginPage - [INFO] - Typing into element: Admin
+2026-02-25 14:58:24,522 - LoginPage - [INFO] - Finding element: ('id', 'username')
+2026-02-25 14:58:46,161 - LoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com//practice-test-login/
+2026-02-25 14:58:47,516 - LoginPage - [INFO] - Typing into element: Admin
+2026-02-25 14:58:47,516 - LoginPage - [INFO] - Finding element: ('id', 'username')
+2026-02-25 15:03:34,344 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:03:39,164 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:03:39,164 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:03:40,394 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:03:40,395 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:03:40,469 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:03:46,896 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:03:52,528 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:03:52,528 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:03:53,745 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:03:53,746 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:03:53,831 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:04:08,967 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:04:16,880 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:04:16,880 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:04:21,529 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:04:21,529 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:04:21,557 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:15:08,510 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:15:17,108 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:15:17,108 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:15:21,860 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:15:21,860 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:15:21,965 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:15:36,327 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:15:42,961 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:15:42,961 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:15:47,443 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:15:47,443 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:15:47,514 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:16:04,785 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:16:10,621 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:16:10,621 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:16:14,821 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:16:14,821 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:16:14,850 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:19:51,209 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:19:57,296 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:19:57,296 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:20:01,538 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:20:01,538 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:20:01,631 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:20:11,886 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:20:20,655 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:20:20,655 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:20:25,468 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:20:25,468 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:20:25,540 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:20:53,238 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:21:00,511 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:21:00,512 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:21:05,146 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:21:05,146 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:21:05,168 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:24:12,904 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:24:21,185 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:24:21,186 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:24:26,539 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:24:26,539 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:24:26,622 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:24:38,736 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:24:43,532 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:24:43,533 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:24:45,688 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:24:45,688 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:24:45,769 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:25:05,221 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:25:11,433 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:25:11,433 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:25:13,513 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:25:13,513 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:25:13,533 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:34:43,057 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:34:51,490 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:34:51,491 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:34:57,759 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:34:57,759 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:34:57,840 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:38:35,656 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:38:58,261 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:38:58,261 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:39:08,718 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:39:10,410 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:39:10,410 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:41:08,480 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:41:14,431 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:41:14,431 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:41:16,071 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:41:16,071 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:41:16,139 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:41:19,776 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:41:25,255 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:41:25,256 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:41:27,021 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:41:27,021 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:41:27,128 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:41:43,107 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:41:48,627 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:41:48,627 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:41:52,258 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:41:52,258 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:41:52,277 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:46:37,691 - TestLogin - [INFO] - -----Test Started-----
+2026-02-25 15:46:37,693 - TestLogin - [INFO] - Starting valid login test
+2026-02-25 15:46:37,694 - LoginPage - [INFO] - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-02-25 15:46:38,482 - TestLogin - [INFO] - Opened login page
+2026-02-25 15:46:38,485 - LoginPage - [INFO] - Typing into element: student
+2026-02-25 15:46:38,486 - LoginPage - [INFO] - Finding element: ('id', 'username')
+2026-02-25 15:46:39,545 - LoginPage - [INFO] - Typing into element: Password123
+2026-02-25 15:46:39,546 - LoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-25 15:46:39,613 - LoginPage - [INFO] - Clicking element: ('id', 'submit')
+2026-02-25 15:46:42,410 - TestLogin - [INFO] - Entered valid credentials
+2026-02-25 15:46:42,410 - LoginPage - [INFO] - Finding element: ('tag name', 'h1')
+2026-02-25 15:46:42,431 - TestLogin - [INFO] - Valid login test passed
+2026-02-25 15:46:42,432 - TestLogin - [INFO] - -----Test Ended-----
+2026-02-25 15:46:45,400 - TestLogin - [INFO] - -----Test Started-----
+2026-02-25 15:46:45,401 - TestLogin - [INFO] - Starting Invalid login test
+2026-02-25 15:46:45,402 - LoginPage - [INFO] - Opening URL: https://practicetestautomation.com/practice-test-login/
+2026-02-25 15:46:47,057 - TestLogin - [INFO] - Opened login page
+2026-02-25 15:46:47,057 - LoginPage - [INFO] - Typing into element: incorrectUser
+2026-02-25 15:46:47,057 - LoginPage - [INFO] - Finding element: ('id', 'username')
+2026-02-25 15:46:47,150 - LoginPage - [INFO] - Typing into element: incorrectPassword 
+2026-02-25 15:46:47,151 - LoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-25 15:46:47,219 - LoginPage - [INFO] - Clicking element: ('id', 'submit')
+2026-02-25 15:46:49,287 - LoginPage - [INFO] - Finding element: ('id', 'error')
+2026-02-25 15:46:49,309 - TestLogin - [INFO] - Invalid login test passed
+2026-02-25 15:46:49,311 - TestLogin - [INFO] - -----Test Ended-----
+2026-02-25 15:46:52,272 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:46:56,654 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:46:56,654 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:46:57,752 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:46:57,752 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:46:57,826 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:47:01,125 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:47:05,007 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:47:05,007 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:47:05,763 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:47:05,763 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:47:05,843 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:47:16,279 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:47:20,453 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:47:20,454 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:47:21,521 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:47:21,521 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:47:21,556 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-25 15:47:28,719 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-25 15:47:28,866 - SauceDemoLoginPage - [INFO] - Typing into element: standard_user
+2026-02-25 15:47:28,866 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-25 15:47:29,771 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-25 15:47:29,771 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-25 15:47:29,978 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-25 15:47:33,569 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-25 15:47:33,975 - SauceDemoLoginPage - [INFO] - Typing into element: locked_out_user
+2026-02-25 15:47:33,975 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-25 15:47:34,198 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-25 15:47:34,199 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-25 15:47:34,283 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-25 15:47:37,435 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-25 15:47:37,509 - SauceDemoLoginPage - [INFO] - Typing into element: problem_user
+2026-02-25 15:47:37,509 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-25 15:47:38,230 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-25 15:47:38,230 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-25 15:47:38,341 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-25 15:47:41,844 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-25 15:47:41,989 - SauceDemoLoginPage - [INFO] - Typing into element: performance_glitch_user
+2026-02-25 15:47:41,989 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-25 15:47:42,686 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-25 15:47:42,686 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-25 15:47:42,872 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-25 15:47:51,152 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-25 15:47:51,543 - SauceDemoLoginPage - [INFO] - Typing into element: error_user
+2026-02-25 15:47:51,543 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-25 15:47:51,784 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-25 15:47:51,785 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-25 15:47:51,888 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-25 15:47:55,286 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-25 15:47:55,393 - SauceDemoLoginPage - [INFO] - Typing into element: visual_user
+2026-02-25 15:47:55,394 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-25 15:47:56,663 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-25 15:47:56,664 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-25 15:47:56,788 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')
+2026-02-27 10:22:27,574 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-27 10:22:35,967 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-27 10:22:35,967 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-27 10:22:37,078 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-27 10:22:37,079 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-27 10:22:37,171 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-27 10:22:44,602 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-27 10:22:51,701 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-27 10:22:51,702 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-27 10:22:52,904 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-27 10:22:52,904 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-27 10:22:52,974 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
+2026-02-27 10:23:05,784 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-27 10:23:13,608 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-27 10:23:13,608 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-27 10:23:14,684 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-27 10:23:14,684 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-27 10:23:14,702 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")

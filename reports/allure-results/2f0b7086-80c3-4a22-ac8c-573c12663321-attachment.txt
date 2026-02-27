@@ -1,0 +1,6 @@
+2026-02-25 15:47:51,152 - SauceDemoLoginPage - [INFO] - Opening URL: https://www.saucedemo.com/
+2026-02-25 15:47:51,543 - SauceDemoLoginPage - [INFO] - Typing into element: error_user
+2026-02-25 15:47:51,543 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'user-name')
+2026-02-25 15:47:51,784 - SauceDemoLoginPage - [INFO] - Typing into element: secret_sauce
+2026-02-25 15:47:51,785 - SauceDemoLoginPage - [INFO] - Finding element: ('id', 'password')
+2026-02-25 15:47:51,888 - SauceDemoLoginPage - [INFO] - Clicking element: ('id', 'login-button')

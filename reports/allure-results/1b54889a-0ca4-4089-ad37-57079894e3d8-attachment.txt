@@ -1,0 +1,13 @@
+[32mINFO    [0m TestLogin:base_test.py:12 -----Test Started-----
+[32mINFO    [0m TestLogin:test_login.py:46 Starting valid login test
+[32mINFO    [0m LoginPage:base_page.py:14 Opening URL: https://practicetestautomation.com/practice-test-login/
+[32mINFO    [0m TestLogin:test_login.py:53 Opened login page
+[32mINFO    [0m LoginPage:base_page.py:26 Typing into element: student
+[32mINFO    [0m LoginPage:base_page.py:18 Finding element: ('id', 'username')
+[32mINFO    [0m LoginPage:base_page.py:26 Typing into element: Password123
+[32mINFO    [0m LoginPage:base_page.py:18 Finding element: ('id', 'password')
+[32mINFO    [0m LoginPage:base_page.py:22 Clicking element: ('id', 'submit')
+[32mINFO    [0m TestLogin:test_login.py:57 Entered valid credentials
+[32mINFO    [0m LoginPage:base_page.py:18 Finding element: ('tag name', 'h1')
+[32mINFO    [0m TestLogin:test_login.py:60 Valid login test passed
+[32mINFO    [0m TestLogin:base_test.py:14 -----Test Ended-----

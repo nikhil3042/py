@@ -1,0 +1,6 @@
+2026-02-25 15:47:16,279 - OrgLoginPage - [INFO] - Opening URL: https://opensource-demo.orangehrmlive.com/
+2026-02-25 15:47:20,453 - OrgLoginPage - [INFO] - Typing into element: Admin
+2026-02-25 15:47:20,454 - OrgLoginPage - [INFO] - Finding element: ('name', 'username')
+2026-02-25 15:47:21,521 - OrgLoginPage - [INFO] - Typing into element: admin123
+2026-02-25 15:47:21,521 - OrgLoginPage - [INFO] - Finding element: ('name', 'password')
+2026-02-25 15:47:21,556 - OrgLoginPage - [INFO] - Clicking element: ('xpath', "//button[@type='submit']")
