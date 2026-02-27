@@ -21,5 +21,5 @@ def test_sauce_demo_login(driver, username, password):
     with allure.step(f"Login with username: {username}"):
         login_page.login(username, password)
 
-    with allure.step("Verify successful login (intentional failure)"):
-        assert False, "This is an intentional failure to check screenshot in Allure"
+    # with allure.step("Verify successful login (intentional failure)"):
+    #     assert False, "This is an intentional failure to check screenshot in Allure"
