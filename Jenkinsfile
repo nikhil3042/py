@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        allure 'allure'   // name configured in Jenkins Tools
-    }
-
     stages {
 
         stage('Checkout Code') {
